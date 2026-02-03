@@ -1,0 +1,6 @@
+Function 	If file is missing	Multiple inclusions	Recommended Use
+include()	Warning, script continues	Yes	Optional files (e.g., templates, headers)
+require()	Fatal Error, script stops	Yes	Essential files where code can be executed multiple times
+include_once()	Warning, script continues	No (only once)	Optional dependencies that should not be included twice
+require_once()	Fatal Error, script stops	No (only once)	Core dependencies, class/function definitions, or autoloader files
+persistent connection - is a link to a database server that is not closed when the script finishes executing. 
