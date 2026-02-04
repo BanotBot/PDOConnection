@@ -11,13 +11,13 @@
 
     <div class="login-container">
         <h2>Welcome Back</h2>
-        <p>Log in to access your CafeEthereal Account</p>
+        <p>Log in to access your Account</p>
         
-        <form class="login-form" id="loginForm">
+        <form class="/PDOConnection/app/controller/Login.php" id="loginForm">
             
             <div class="form-group">
-                <label for="id_number">ID Number</label>
-                <input type="text" id="id_number" name="id_number" required>
+                <label for="gmail">Email Account </label>
+                <input type="text" id="gmail" name="gmail" required>
             </div>
             
             <div class="form-group">
@@ -36,11 +36,5 @@
             <a href="RegistrationForm.html">Need an Account?</a>
         </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="resources/js/login.js"></script>
-    <script src="/CafeEtherealPayroll/resources/js/_utils/app-constants-utils.js"></script>
-    <script src="/CafeEtherealPayroll/resources/js/_utils/swal-message-utils.js"></script>
-    
 </body>
 </html>
